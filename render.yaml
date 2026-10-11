@@ -1,0 +1,38 @@
+services:
+  # -------------------------------------------------------------
+  # 1. Backend API Service (Express.js + MongoDB)
+  # -------------------------------------------------------------
+  - type: web
+    name: milking-tracker-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false
+
+  # -------------------------------------------------------------
+  # 2. Frontend Web Service (Next.js 16)
+  # -------------------------------------------------------------
+  - type: web
+    name: milking-tracker-web
+    runtime: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_API_BASE_URL
+        sync: false
