@@ -46,50 +46,50 @@ Thumbs.db
 *.swo
 
 # Local AI/agent instructions, skills, prompts, and assistant state
-AGENTS.md
-**/AGENTS.md
-NEXTJS-RULES.md
-**/NEXTJS-RULES.md
-BACKEND-RULES.md
-**/BACKEND-RULES.md
-.agents/
-**/.agents/
-.codex/
-**/.codex/
-.claude/
-**/.claude/
-.cursor/
-**/.cursor/
-.windsurf/
-**/.windsurf/
-.ai/
-**/.ai/
-.skills/
-**/.skills/
-CLAUDE.md
-**/CLAUDE.md
-GEMINI.md
-**/GEMINI.md
-.mcp.json
-**/.mcp.json
-mcp.json
-**/mcp.json
-prompts/
-**/prompts/
-ai-notes/
-**/ai-notes/
-UI-REFERENCE.md
-ui-references/
-.github/copilot-instructions.md
-**/SKILL.md
-skills-lock.json
-**/skills-lock.json
+# AGENTS.md
+# **/AGENTS.md
+# NEXTJS-RULES.md
+# **/NEXTJS-RULES.md
+# BACKEND-RULES.md
+# **/BACKEND-RULES.md
+# .agents/
+# **/.agents/
+# .codex/
+# **/.codex/
+# .claude/
+# **/.claude/
+# .cursor/
+# **/.cursor/
+# .windsurf/
+# **/.windsurf/
+# .ai/
+# **/.ai/
+# .skills/
+# **/.skills/
+# CLAUDE.md
+# **/CLAUDE.md
+# GEMINI.md
+# **/GEMINI.md
+# .mcp.json
+# **/.mcp.json
+# mcp.json
+# **/mcp.json
+# prompts/
+# **/prompts/
+# ai-notes/
+# **/ai-notes/
+# UI-REFERENCE.md
+# ui-references/
+# .github/copilot-instructions.md
+# **/SKILL.md
+# skills-lock.json
+# **/skills-lock.json
 
-# JavaScript Mastery local workflow artifacts
-.workflow/
-**/.workflow/
-docs/scope/
-docs/specs/
-docs/reviews/
-docs/.agent-cache/
-test-preferences.json
+# # JavaScript Mastery local workflow artifacts
+# .workflow/
+# **/.workflow/
+# docs/scope/
+# docs/specs/
+# docs/reviews/
+# docs/.agent-cache/
+# test-preferences.json
